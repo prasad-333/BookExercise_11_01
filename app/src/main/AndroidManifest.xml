@@ -2,9 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+<!--    android:name=".exercise_12_01.PreferenceApplication"-->
     <application
         android:allowBackup="true"
-        android:name=".exercise_12_01.PreferenceApplication"
+        android:name=".exercise_12_02.SettingsApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -23,6 +24,16 @@
         </activity>
         <activity
             android:name=".exercise_12_01.MainActivity"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".exercise_12_02.MainActivity12_02"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
