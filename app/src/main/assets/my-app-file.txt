@@ -1,0 +1,2 @@
+This text file to be written into the file system of the device very soon.
+I am master of android development using latest technologies, framework & libraries and languages kotlin, Java etc.
