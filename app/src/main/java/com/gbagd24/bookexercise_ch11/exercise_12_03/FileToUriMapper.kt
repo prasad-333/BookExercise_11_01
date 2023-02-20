@@ -7,6 +7,6 @@ import java.io.File
 
 class FileToUriMapper {
     fun getUriFromFile(context: Context, file: File): Uri {
-        return FileProvider.getUriForFile(context, "com.android.testable.files", file)
+        return FileProvider.getUriForFile(context, "com.gbagd24.bookexercise_ch11.files", file)
     }
 }
