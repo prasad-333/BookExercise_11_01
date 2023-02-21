@@ -9,7 +9,7 @@
     <!--    android:name=".exercise_12_01.PreferenceApplication"-->
     <application
         android:allowBackup="true"
-        android:name=".exercise_12_02.SettingsApplication"
+        android:name=".exercise_13_01.RandomApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -57,6 +57,14 @@
     </activity>
         <activity android:name="com.gbagd24.bookexercise_ch11.exercise_12_04.MainActivity12_04"
             android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name="com.gbagd24.bookexercise_ch11.exercise_13_01.MainActivity13_01"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -65,7 +73,7 @@
         </activity>
 
 
-<!--        <provider-->
+        <!--        <provider-->
 <!--            android:name="androidx.core.content.FileProvider"-->
 <!--            android:authorities="com.gbagd24.bookexercise_ch11.files"-->
 <!--            android:exported="false"-->

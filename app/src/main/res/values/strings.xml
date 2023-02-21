@@ -2,4 +2,5 @@
     <string name="app_name">BookExercise_11_01</string>
     <string name="press_me">Press Me</string>
     <string name="total">Total %d</string>
+    <string name="randomize">Randomize</string>
 </resources>
