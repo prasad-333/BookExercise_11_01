@@ -1,7 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-kapt'
+    id 'kotlin-kapt' //apply plugin: 'kotlin-kapt
+    id 'com.google.dagger.hilt.android'
 }
 
 android {
@@ -67,5 +68,29 @@ dependencies {
 
 //12_03 & 12_04
     implementation 'commons-io:commons-io:2.6'
+
+
+    //13_02
+//    implementation 'com.google.dagger:dagger:2.29.1'
+//    kapt 'com.google.dagger:dagger-compiler:2.29.1'
+    implementation 'com.google.dagger:dagger:2.43.2'
+    kapt 'com.google.dagger:dagger-compiler:2.43.2'
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+
+
+    //13_03 hilt dependency
+    implementation "com.google.dagger:hilt-android:2.44.2"
+    kapt "com.google.dagger:hilt-compiler:2.44.2"
+    implementation 'androidx.fragment:fragment-ktx:1.5.5'
+
+
+    //13_04
+//    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+//    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1"
+    implementation "io.insert-koin:koin-android:3.2.2"
+    implementation "io.insert-koin:koin-core:3.2.2"
+    //testImplementation 'junit:junit:4.13.2'
+
+
 
 }

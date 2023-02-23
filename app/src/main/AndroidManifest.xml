@@ -9,7 +9,7 @@
     <!--    android:name=".exercise_12_01.PreferenceApplication"-->
     <application
         android:allowBackup="true"
-        android:name=".exercise_13_01.RandomApplication"
+        android:name=".exercise_13_04.RandomApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -64,6 +64,30 @@
 <!--            </intent-filter>-->
         </activity>
         <activity android:name="com.gbagd24.bookexercise_ch11.exercise_13_01.MainActivity13_01"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name="com.gbagd24.bookexercise_ch11.exercise_13_02.MainActivity13_02"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name="com.gbagd24.bookexercise_ch11.exercise_13_03.MainActivity13_03"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name="com.gbagd24.bookexercise_ch11.exercise_13_04.MainActivity13_04"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
